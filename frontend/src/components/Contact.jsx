@@ -72,6 +72,23 @@ const Contact = () => {
             <Card className="bg-slate-700 border-slate-600">
               <CardHeader>
                 <CardTitle className="text-white flex items-center gap-2">
+                  <Phone className="text-blue-400" size={20} />
+                  Phone
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <a
+                  href={`tel:${personalInfo.phone}`}
+                  className="text-gray-300 hover:text-blue-400 transition-colors"
+                >
+                  {personalInfo.phone}
+                </a>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-slate-700 border-slate-600">
+              <CardHeader>
+                <CardTitle className="text-white flex items-center gap-2">
                   <MapPin className="text-blue-400" size={20} />
                   Location
                 </CardTitle>
