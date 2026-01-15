@@ -15,9 +15,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">&lt;JD /&gt;</h3>
+            <h3 className="text-2xl font-bold mb-4">&lt;OA /&gt;</h3>
             <p className="text-gray-400">
-              Frontend Developer passionate about creating beautiful and functional web experiences.
+              Frontend Developer passionate about creating beautiful and functional web and mobile experiences.
             </p>
           </div>
 
