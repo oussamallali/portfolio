@@ -110,18 +110,18 @@ export const experience = [
 export const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Product Manager",
-    company: "Tech Innovations Inc.",
-    content: "John is an exceptional frontend developer. His attention to detail and ability to translate designs into pixel-perfect implementations is outstanding.",
+    name: "Project Manager",
+    role: "Team Lead",
+    company: "Fenovation SPAS",
+    content: "Oussama is a dedicated developer who consistently delivers high-quality mobile applications. His expertise in React Native and attention to user experience makes him a valuable team member.",
     avatar: "https://i.pravatar.cc/150?img=1"
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "Lead Designer",
-    company: "Digital Solutions Ltd.",
-    content: "Working with John was a pleasure. He understands design principles and always delivers clean, maintainable code.",
+    name: "Technical Director",
+    role: "Head of Engineering",
+    company: "Fenovation SPAS",
+    content: "Working with Oussama has been excellent. He has a strong understanding of mobile development and always ensures optimal performance and responsiveness in his work.",
     avatar: "https://i.pravatar.cc/150?img=2"
   }
 ];
