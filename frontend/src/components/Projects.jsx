@@ -16,12 +16,13 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
-            <Card
-              key={project.id}
-              className="bg-slate-800 border-slate-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/20 overflow-hidden group"
-            >
+        <div className="flex justify-center">
+          <div className="max-w-md w-full">
+            {projects.map((project) => (
+              <Card
+                key={project.id}
+                className="bg-slate-800 border-slate-700 hover:border-blue-500 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/20 overflow-hidden group"
+              >
               {/* Project Image */}
               <div className="relative h-48 overflow-hidden">
                 <img
