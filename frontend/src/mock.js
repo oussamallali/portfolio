@@ -34,42 +34,6 @@ export const projects = [
     },
     demo: "https://www.mooshir.com/",
     featured: true
-  },
-  {
-    id: 2,
-    title: "Healthcare Mobile Platform",
-    description: "Built a healthcare management mobile app connecting patients with doctors, featuring appointment scheduling, telemedicine, and health records.",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
-    tech: ["React Native", "JavaScript", "Firebase"],
-    demo: "https://demo.example.com",
-    featured: true
-  },
-  {
-    id: 3,
-    title: "E-Commerce Mobile App",
-    description: "Developed a cross-platform mobile e-commerce application with seamless shopping experience, payment integration, and real-time order tracking.",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop",
-    tech: ["React Native", "JavaScript", "API Integration"],
-    demo: "https://demo.example.com",
-    featured: true
-  },
-  {
-    id: 4,
-    title: "Restaurant Ordering System",
-    description: "Designed and implemented a mobile ordering system for restaurants with menu browsing, cart management, and order placement.",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop",
-    tech: ["React Native", "JavaScript", "Payment APIs"],
-    demo: "https://demo.example.com",
-    featured: false
-  },
-  {
-    id: 5,
-    title: "Fitness Tracking App",
-    description: "Created a fitness mobile application with workout tracking, progress monitoring, and personalized training plans.",
-    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop",
-    tech: ["React Native", "JavaScript", "Charts"],
-    demo: "https://demo.example.com",
-    featured: false
   }
 ];
 
