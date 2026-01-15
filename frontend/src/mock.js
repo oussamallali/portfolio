@@ -93,24 +93,17 @@ export const skills = [
 export const experience = [
   {
     id: 1,
-    role: "Senior Frontend Developer",
-    company: "Tech Innovations Inc.",
-    period: "2022 - Present",
-    description: "Leading frontend development for enterprise applications, mentoring junior developers, and implementing modern UI/UX patterns."
+    role: "Frontend Developer",
+    company: "Fenovation SPAS",
+    period: "October 2021 - Present",
+    description: "As a Front-end React Native Developer, responsible for designing and implementing user interfaces for mobile applications. Collaborating with cross-functional teams, translating design wireframes into code, and ensuring optimal performance and responsiveness. Proficiency in React Native and JavaScript."
   },
   {
     id: 2,
-    role: "Frontend Developer",
-    company: "Digital Solutions Ltd.",
-    period: "2020 - 2022",
-    description: "Developed responsive web applications using React and TypeScript, collaborated with design teams to implement pixel-perfect interfaces."
-  },
-  {
-    id: 3,
-    role: "Junior Frontend Developer",
-    company: "StartUp Ventures",
-    period: "2019 - 2020",
-    description: "Built reusable components, fixed bugs, and contributed to the development of the company's main product."
+    role: "IT Help Desk",
+    company: "Actemium SPA",
+    period: "January 2019 - October 2021",
+    description: "Responded to IT support requests and provided timely resolution. Assisted users with hardware and software-related problems, offering guidance and troubleshooting assistance. Installed, configured, and maintained computer systems and applications. Collaborated with IT team members to implement solutions and updates."
   }
 ];
 
