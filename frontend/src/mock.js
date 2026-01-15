@@ -125,3 +125,20 @@ export const testimonials = [
     avatar: "https://i.pravatar.cc/150?img=2"
   }
 ];
+
+export const education = [
+  {
+    id: 1,
+    degree: "Master RO (Mathematics & Computer Science)",
+    institution: "USTHB, Babezzour",
+    period: "September 2010 - June 2015",
+    description: "Completed Master's degree in Mathematics and Computer Science with focus on theoretical and applied computing."
+  },
+  {
+    id: 2,
+    degree: "Baccalaureate (Technical Mathematics)",
+    institution: "High School Abdelmoumen, Bouzareah",
+    period: "September 2007 - June 2010",
+    description: "Completed secondary education with specialization in technical mathematics."
+  }
+];
