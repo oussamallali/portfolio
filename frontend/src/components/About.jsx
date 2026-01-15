@@ -63,6 +63,30 @@ const About = () => {
             </div>
           </div>
 
+          {/* Education Section */}
+          <div className="mb-16">
+            <h3 className="text-3xl font-bold mb-8 flex items-center gap-3">
+              <GraduationCap className="text-blue-400" size={32} />
+              Education
+            </h3>
+            <div className="space-y-6">
+              {education.map((edu) => (
+                <Card key={edu.id} className="bg-slate-800 border-slate-700 hover:border-blue-500 transition-colors">
+                  <CardHeader>
+                    <CardTitle className="text-white text-xl">{edu.degree}</CardTitle>
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                      <span className="text-blue-400 font-medium">{edu.institution}</span>
+                      <span className="text-gray-400 text-sm">{edu.period}</span>
+                    </div>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-gray-300">{edu.description}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+
           {/* Testimonials Section */}
           <div>
             <h3 className="text-3xl font-bold mb-8 text-center">What People Say</h3>
