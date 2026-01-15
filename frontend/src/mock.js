@@ -1,13 +1,15 @@
 // Mock data for Frontend Developer Portfolio
 
 export const personalInfo = {
-  name: "John Developer",
-  title: "Frontend Developer",
-  tagline: "Building beautiful, responsive web experiences with modern technologies",
-  bio: "Passionate frontend developer with 5+ years of experience crafting pixel-perfect, user-centric web applications. Specialized in React, TypeScript, and modern UI frameworks. I transform complex problems into elegant, accessible solutions.",
-  email: "john.dev@example.com",
-  location: "San Francisco, CA",
-  available: true
+  name: "Oussama Allali",
+  title: "Frontend Developer Web & Mobile",
+  tagline: "Creating responsive and visually appealing web and mobile interfaces with modern technologies",
+  bio: "Experienced front-end developer skilled in creating responsive and visually appealing web and mobile interfaces. Proficient in HTML, CSS, JavaScript, and frameworks like React and React Native. Dedicated to delivering user-friendly experiences and staying updated on industry trends.",
+  email: "oussamallali@gmail.com",
+  phone: "0792653823",
+  location: "Alger, Algeria",
+  available: true,
+  languages: ["Arabic", "French", "English"]
 };
 
 export const socialLinks = {
