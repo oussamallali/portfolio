@@ -74,21 +74,20 @@ export const projects = [
 
 export const skills = [
   { name: "React", category: "framework" },
-  { name: "TypeScript", category: "language" },
+  { name: "React Native", category: "framework" },
   { name: "JavaScript", category: "language" },
-  { name: "Next.js", category: "framework" },
-  { name: "Vue.js", category: "framework" },
-  { name: "Tailwind CSS", category: "styling" },
-  { name: "CSS/SASS", category: "styling" },
-  { name: "Redux", category: "state" },
-  { name: "Git", category: "tools" },
-  { name: "Webpack", category: "tools" },
-  { name: "REST APIs", category: "backend" },
-  { name: "GraphQL", category: "backend" },
+  { name: "HTML5", category: "language" },
+  { name: "CSS3", category: "styling" },
   { name: "Responsive Design", category: "design" },
+  { name: "Git", category: "tools" },
+  { name: "Xcode", category: "tools" },
+  { name: "Android Studio", category: "tools" },
+  { name: "Mobile Development", category: "specialization" },
+  { name: "Cross-Platform Apps", category: "specialization" },
+  { name: "UI/UX Implementation", category: "design" },
+  { name: "API Integration", category: "backend" },
   { name: "Performance Optimization", category: "optimization" },
-  { name: "Testing (Jest, RTL)", category: "testing" },
-  { name: "Accessibility (A11y)", category: "design" }
+  { name: "User Experience", category: "design" }
 ];
 
 export const experience = [
