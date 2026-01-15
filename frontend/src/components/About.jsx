@@ -34,6 +34,10 @@ const About = () => {
                       {personalInfo.available ? 'Available for Work' : 'Not Available'}
                     </span>
                   </div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-blue-400 font-medium">Languages:</span>
+                    <span className="text-gray-400">{personalInfo.languages.join(', ')}</span>
+                  </div>
                 </div>
               </CardContent>
             </Card>
