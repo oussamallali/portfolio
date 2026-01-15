@@ -128,6 +128,7 @@ const Projects = () => {
               </CardContent>
             </Card>
           ))}
+          </div>
         </div>
       </div>
     </section>
