@@ -7,12 +7,11 @@ const Skills = () => {
     framework: { label: 'Frameworks & Libraries', color: 'bg-blue-600' },
     language: { label: 'Languages', color: 'bg-green-600' },
     styling: { label: 'Styling', color: 'bg-purple-600' },
-    state: { label: 'State Management', color: 'bg-orange-600' },
-    tools: { label: 'Tools', color: 'bg-yellow-600' },
-    backend: { label: 'Backend & APIs', color: 'bg-red-600' },
     design: { label: 'Design & UX', color: 'bg-pink-600' },
-    optimization: { label: 'Optimization', color: 'bg-indigo-600' },
-    testing: { label: 'Testing', color: 'bg-teal-600' }
+    tools: { label: 'Development Tools', color: 'bg-yellow-600' },
+    backend: { label: 'Backend & APIs', color: 'bg-red-600' },
+    specialization: { label: 'Specializations', color: 'bg-indigo-600' },
+    optimization: { label: 'Optimization', color: 'bg-teal-600' }
   };
 
   const groupedSkills = skills.reduce((acc, skill) => {
