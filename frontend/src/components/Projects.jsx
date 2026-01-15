@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink, Smartphone, Globe } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 import { Button } from './ui/button';
@@ -59,25 +59,71 @@ const Projects = () => {
                 </div>
 
                 {/* Project Links */}
-                <div className="flex gap-3">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="flex-1 border-slate-600 text-gray-300 hover:bg-slate-700 hover:text-white"
-                    onClick={() => window.open(project.github, '_blank')}
-                  >
-                    <Github size={16} className="mr-2" />
-                    Code
-                  </Button>
-                  <Button
-                    size="sm"
-                    className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
-                    onClick={() => window.open(project.demo, '_blank')}
-                  >
-                    <ExternalLink size={16} className="mr-2" />
-                    Demo
-                  </Button>
-                </div>
+                {project.links ? (
+                  // Special layout for Mooshir project with multiple store links
+                  <div className="space-y-2">
+                    <Button
+                      size="sm"
+                      className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                      onClick={() => window.open(project.links.website, '_blank')}
+                    >
+                      <Globe size={16} className="mr-2" />
+                      Visit Website
+                    </Button>
+                    <div className="grid grid-cols-3 gap-2">
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="border-slate-600 text-gray-300 hover:bg-slate-700 hover:text-white text-xs"
+                        onClick={() => window.open(project.links.googlePlay, '_blank')}
+                      >
+                        <Smartphone size={14} className="mr-1" />
+                        Play
+                      </Button>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="border-slate-600 text-gray-300 hover:bg-slate-700 hover:text-white text-xs"
+                        onClick={() => window.open(project.links.appStore, '_blank')}
+                      >
+                        <Smartphone size={14} className="mr-1" />
+                        iOS
+                      </Button>
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="border-slate-600 text-gray-300 hover:bg-slate-700 hover:text-white text-xs"
+                        onClick={() => window.open(project.links.huawei, '_blank')}
+                      >
+                        <Smartphone size={14} className="mr-1" />
+                        Huawei
+                      </Button>
+                    </div>
+                  </div>
+                ) : (
+                  // Standard layout for other projects
+                  <div className="flex gap-3">
+                    {project.github && (
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="flex-1 border-slate-600 text-gray-300 hover:bg-slate-700 hover:text-white"
+                        onClick={() => window.open(project.github, '_blank')}
+                      >
+                        <Github size={16} className="mr-2" />
+                        Code
+                      </Button>
+                    )}
+                    <Button
+                      size="sm"
+                      className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
+                      onClick={() => window.open(project.demo, '_blank')}
+                    >
+                      <ExternalLink size={16} className="mr-2" />
+                      Demo
+                    </Button>
+                  </div>
+                )}
               </CardContent>
             </Card>
           ))}
