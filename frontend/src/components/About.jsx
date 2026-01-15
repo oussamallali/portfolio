@@ -1,6 +1,6 @@
 import React from 'react';
-import { Briefcase } from 'lucide-react';
-import { personalInfo, experience, testimonials } from '../mock';
+import { Briefcase, GraduationCap } from 'lucide-react';
+import { personalInfo, experience, testimonials, education } from '../mock';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
 
